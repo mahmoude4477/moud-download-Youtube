@@ -1,6 +1,6 @@
 from pytube import YouTube
 
-link = input('hi inter link youtube:')#رابط التحميل
+link = input('hi enter link youtube:')#رابط التحميل
 yt = YouTube(link)
 videos = yt.streams.filter(subtype='mp4').all()#طباعه الصيغ المتوفره
 i = 1
