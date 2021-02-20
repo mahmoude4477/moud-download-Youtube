@@ -1,2 +1,5 @@
 # moud-download-Youtube
-تحميل من اليوتيوب 
+تحميل من اليوتيوب
+لازم تثبت مكتبه pytube
+pip install pytube
+
